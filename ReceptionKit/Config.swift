@@ -10,7 +10,7 @@ class Config {
 
     class Smooch {
         /// Replace the token with App Token you get from app.smooch.io
-        static let AppToken = "eurqdnoj2xjppgfbh51zs2v89"
+        static let AppToken = "dwfu6f32kyovy76r6rhjus3ux"
     }
 
     class General {

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IaD-hP-Gwr">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IaD-hP-Gwr">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -16,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Wfg-EL-92o">
@@ -32,7 +32,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="redraw" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uCB-dj-GQe">
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="64"/>
-                                        <state key="normal" title="i'm a visitor">
+                                        <state key="normal" title="visitor">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -78,7 +78,7 @@
                         <viewControllerLayoutGuide type="bottom" id="m9J-2N-bMX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vkX-EK-14f">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ehb-Vw-Va1">
@@ -133,7 +133,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U4K-RA-wbW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="COD-6K-BSq">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="The Wonderful Wizard of Oz" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ol3-q4-HxX">
@@ -175,15 +175,15 @@
             <objects>
                 <tableViewController id="yze-Re-wJM" customClass="VisitorSearchResultsTableViewController" customModule="ReceptionKit" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="j3x-oo-KLf">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactTableViewCell" rowHeight="100" id="0YX-Ga-Tki" customClass="ContactTableViewCell" customModule="ReceptionKit" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="22" width="1024" height="100"/>
+                                <rect key="frame" x="0.0" y="22" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YX-Ga-Tki" id="16j-6W-qcR">
-                                    <frame key="frameInset" width="1024" height="99"/>
+                                    <frame key="frameInset" width="375" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9E-q8-YGT">
@@ -246,7 +246,7 @@
                         <viewControllerLayoutGuide type="bottom" id="htw-V5-eIl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Tp2-Fe-JbD">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0K-W6-gcL">
@@ -329,7 +329,7 @@
                         <viewControllerLayoutGuide type="bottom" id="lac-AJ-t2f"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="pyp-lf-XmJ">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ntd-z4-weE">
@@ -384,7 +384,7 @@
                         <viewControllerLayoutGuide type="bottom" id="pgW-3I-Fy2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="C9E-yx-qLD">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="someone will be here shortly to meet you" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GC-bk-SPR">
@@ -451,7 +451,7 @@
                         <viewControllerLayoutGuide type="bottom" id="YOj-9X-Ysf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hEp-bq-gHR">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="1302"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your name?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-HB-Rk0">

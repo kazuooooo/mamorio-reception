@@ -97,3 +97,4 @@ If you wish to customize the launch screen, you must change the `LaunchScreen.xi
 
 - The icons on the buttons are from [Font Awesome](http://fortawesome.github.io/Font-Awesome/). You can replace the icon in `Icons.swift` by changing the Unicode values.
 - The first time you search for a contact, you will have to give the app permission to access the device's contact list.
+# mamorio-reception
