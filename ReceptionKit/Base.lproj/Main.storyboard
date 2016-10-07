@@ -43,7 +43,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.75686274509803919" green="0.031372549019607843" blue="0.070588235294117646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.68518708880000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Wfg-EL-92o" secondAttribute="trailing" id="Oxa-DL-kLc"/>
                             <constraint firstItem="Wfg-EL-92o" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kgr-DZ-RMf"/>
@@ -459,7 +459,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Harry Potter" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dbb-CH-MQ3">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="山田 太郎" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dbb-CH-MQ3">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="d7u-fz-Qya"/>
                                 </constraints>
@@ -468,7 +468,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="go"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.68518708881578949" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dbb-CH-MQ3" firstAttribute="top" secondItem="TCf-HB-Rk0" secondAttribute="bottom" constant="16" id="8vr-fa-0uQ" userLabel="Vertical Margin"/>
                             <constraint firstItem="TCf-HB-Rk0" firstAttribute="leading" secondItem="hEp-bq-gHR" secondAttribute="leadingMargin" id="9ye-Pe-Mag" userLabel="Name Label Left"/>
