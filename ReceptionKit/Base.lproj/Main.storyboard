@@ -183,7 +183,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0YX-Ga-Tki" id="16j-6W-qcR">
-                                    <frame key="frameInset" width="375" height="99.5"/>
+                                    <frame key="frameInset" width="375" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9E-q8-YGT">
@@ -463,11 +463,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="d7u-fz-Qya"/>
                                 </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="go"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.75686274509999996" green="0.031372549020000001" blue="0.070588235289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dbb-CH-MQ3" firstAttribute="top" secondItem="TCf-HB-Rk0" secondAttribute="bottom" constant="16" id="8vr-fa-0uQ" userLabel="Vertical Margin"/>
                             <constraint firstItem="TCf-HB-Rk0" firstAttribute="leading" secondItem="hEp-bq-gHR" secondAttribute="leadingMargin" id="9ye-Pe-Mag" userLabel="Name Label Left"/>
