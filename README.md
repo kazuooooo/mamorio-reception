@@ -6,7 +6,7 @@ A simple, customizable receptionist iPad app built with [Smooch](http://smooch.i
 
 ## Setup
 
-1. `git clone https://github.com/AcroMace/receptionkit.git`
+1. `git clone https://github.com/otoshimono/mamorio-reception`
 2. `cd receptionkit`
 3. Sign up with [Smooch](http://smooch.io) and copy the App Token from Settings
 4. [Configure Slack with Smooch](http://docs.smooch.io/#slack)
